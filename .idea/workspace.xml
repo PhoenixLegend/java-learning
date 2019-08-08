@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/HeroDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/testDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/TestSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/META-INF/thirdproject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/charactor/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/charactor/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/jdbc/TestJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/jdbc/TestJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/lambda/TestLamdba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/lambda/TestLamdba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charactor/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charactor/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/TestLamdba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/TestLamdba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/testDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/testDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,29 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jdbc/TestJDBC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="29" column="69" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jdbc/testDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/network/server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="95">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jdbc/HeroDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/network/client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-855">
-              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="266">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,6 +86,9 @@
         <option value="$PROJECT_DIR$/src/charactor/Hero.java" />
         <option value="$PROJECT_DIR$/src/jdbc/HeroDAO.java" />
         <option value="$PROJECT_DIR$/src/jdbc/testDAO.java" />
+        <option value="$PROJECT_DIR$/src/network/TestSocket.java" />
+        <option value="$PROJECT_DIR$/src/network/client.java" />
+        <option value="$PROJECT_DIR$/src/network/server.java" />
       </list>
     </option>
   </component>
@@ -134,19 +124,7 @@
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="charactor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,20 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testDAO">
-    <configuration name="DomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xmlAnalizy.DomDemo" />
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xmlAnalizy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.server">
     <configuration name="TestJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.TestJDBC" />
       <module name="thirdproject" />
@@ -207,12 +172,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charactor.test" />
+    <configuration name="TestSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.TestSocket" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="charactor.*" />
+          <option name="PATTERN" value="network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.client" />
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.server" />
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,26 +224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xmlAnalizy.testXml" />
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xmlAnalizy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.server" />
+        <item itemvalue="Application.client" />
+        <item itemvalue="Application.TestSocket" />
         <item itemvalue="Application.testDAO" />
         <item itemvalue="Application.TestJDBC" />
-        <item itemvalue="Application.testXml" />
-        <item itemvalue="Application.DomDemo" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +245,14 @@
       <option name="presentableId" value="Default" />
       <updated>1564982851563</updated>
     </task>
+    <task id="LOCAL-00001" summary="second">
+      <created>1565235822177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565235822177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -293,7 +279,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3065574" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4091653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40819672" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -311,6 +297,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -496,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbc/TestJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -513,20 +493,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/HeroDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/jdbc/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/HeroDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbc/testDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Process.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="87" column="6" lean-forward="true" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/network/socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/network/TestSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/network/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/network/server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
