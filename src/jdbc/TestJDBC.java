@@ -43,7 +43,8 @@ public class TestJDBC {
             // 注意： 字符串要用单引号'
             // 注意： 如果插入中文，可能会报错。异常主要是由于数据库的字符编码选择错误造成，MySQL的默认编码是Latin1，不支持中文，最好修改为utf8的字符编码为宜。英文就没有问题。
 //            String sql = "insert into hero values(1,'Garen',313.0,50)";
-//            s.execute(sql);
+//            s.execute(sql);//返回Boolean值ResultSet rs = s.execute(sql);
+            //如果使用executeUpdate可能增删改，但是不能返回resultset查询结果
 //
 //            System.out.println("执行插入语句成功");
             String sql = "select * from hero";

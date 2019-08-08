@@ -11,7 +11,7 @@ public class TestLamdba {
         Random r = new Random();
         List<Hero> heros = new ArrayList<Hero>();
         for (int i = 0; i < 5; i++) {
-            heros.add(new Hero("hero " + i, r.nextInt(1000), r.nextInt(100)));
+            heros.add(new Hero(i,"hero " + i, r.nextInt(1000), r.nextInt(100)));
         }
         System.out.println("初始化后的集合：");
         System.out.println(heros);

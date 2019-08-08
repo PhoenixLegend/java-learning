@@ -4,12 +4,16 @@ public class Hero implements Comparable<Hero>{
     public String name;
     public int length;
     public float hp;
-
-    public  int length(){
-        return this.length;
-    }
     public int damage;
+    public int id;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public boolean isDead (){
         return 0>=hp? true:false;
@@ -38,9 +42,16 @@ public class Hero implements Comparable<Hero>{
         this.name =name;
 
     }
+    public Hero(String name,float hp, int damage) {
+
+        this.name =name;
+        this.hp = hp;
+        this.damage = damage;
+    }
 
     //初始化name,hp,damage的构造方法
-    public Hero(String name,float hp, int damage) {
+    public Hero(int id,String name,float hp, int damage) {
+        this.id = id;
         this.name =name;
         this.hp = hp;
         this.damage = damage;
