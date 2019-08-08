@@ -7,6 +7,13 @@ public class Hero implements Comparable<Hero>{
     public int damage;
     public int id;
 
+    //静态初始化块里进行初始化
+    static String copyright;
+    static {
+        System.out.println("初始化 copyright");
+        copyright = "版权由Riot Games公司所有";
+    }
+
     public int getId() {
         return id;
     }
