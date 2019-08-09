@@ -4,6 +4,7 @@ import charactor.Hero;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class TestReflection {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -27,15 +28,24 @@ public class TestReflection {
             Constructor pc = p.getConstructor();
             Hero Teemo = (Hero) pc.newInstance();
 
+//
+//            //Teemo.name = "Teemo";
+//            System.out.println(Teemo.toString());
+//            //获取类Hero的名字叫做name的字段
+//            //这里使用反射机制修改类的属性
+//            Field f1 = Teemo.getClass().getDeclaredField("name");
+//            f1.set(Teemo,"Teeno");
+//
+//            System.out.println(Teemo.toString());
+            // 调用方法
+            // 获取这个名字叫做setName，参数类型是String的方法
+            Method m = p.getClass().getMethod("setName",String.class);
+            // 对h对象，调用这个方法
+            m.invoke(p, "Garen");
 
-            //Teemo.name = "Teemo";
-            System.out.println(Teemo.toString());
-            //获取类Hero的名字叫做name的字段
+            // 使用传统的方式，调用getName方法
+            System.out.println(p.getName());
 
-            Field f1 = Teemo.getClass().getDeclaredField("name");
-            f1.set(Teemo,"Teeno");
-
-            System.out.println(Teemo.toString());
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
