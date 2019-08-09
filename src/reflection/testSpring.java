@@ -11,7 +11,7 @@ public class testSpring {
     public static void main(String[] args) throws Exception {
 
         //从spring.txt中获取类名称和方法名称
-        File springConfigFile = new File("E:\\java-learning\\src\\reflection\\spring.txt");
+        File springConfigFile = new File("E:\\java-learning\\src\\reflection\\spring.config");
         //file就是个路径，properties才是获取文件参数的对象
         Properties springConfigProperties= new Properties();
         springConfigProperties.load(new FileInputStream(springConfigFile));
