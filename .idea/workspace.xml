@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/annotation/Hero_annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/MyColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/MyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/MyGeneratedValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/MyId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/MyTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/ParseHibernateAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileIO/Hero_Serializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileIO/test_HeroFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/collection/TestCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/collection/TestCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/jdbc/TestJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/jdbc/TestJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/jdbc/testDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/jdbc/testDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/lambda/TestLamdba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/lambda/TestLamdba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/xmlAnalizy/testXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/xmlAnalizy/testXml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/TestCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/TestCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/testDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/testDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/TestLamdba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/TestLamdba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reflection/TestReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflection/TestReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xmlAnalizy/testXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlAnalizy/testXml.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +35,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="66" />
-    <option name="width" value="1132" />
-    <option name="height" value="494" />
-  </component>
   <component name="ProjectId" id="1PJ2enDltTEx8BYbuOKypu5xES7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +49,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JUnitGenerator.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/annotation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,17 +61,18 @@
       <recent name="factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-learning\src\annotation" />
       <recent name="E:\java-learning" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java-learning\src\fileIO" />
       <recent name="E:\java-learning\src" />
       <recent name="E:\java-learning" />
       <recent name="E:\java-learning\.idea" />
       <recent name="E:\java-learning\design_pattern\test" />
-      <recent name="E:\java-learning\design_pattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,78 +87,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testXml.testXml">
-    <configuration name="TestCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParseHibernateAnnotation.testAnnotation">
+    <configuration name="FindFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.FindFiles" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection" />
-      <option name="MAIN_CLASS_NAME" value="collection.TestCollection" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLamdba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParseHibernateAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.ParseHibernateAnnotation" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.TestLamdba" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test_HeroFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileIO.test_HeroFile" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="fileIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="reflection" />
-      <option name="MAIN_CLASS_NAME" value="reflection.TestReflection" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParseHibernateAnnotation.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="reflection" />
-      <option name="MAIN_CLASS_NAME" value="reflection.testSpring" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.ParseHibernateAnnotation" />
+      <option name="METHOD_NAME" value="testAnnotation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testXml.testXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test_HeroFile.test_HeroFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xmlAnalizy.*" />
+          <option name="PATTERN" value="fileIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xmlAnalizy" />
-      <option name="MAIN_CLASS_NAME" value="xmlAnalizy.testXml" />
-      <option name="METHOD_NAME" value="testXml" />
+      <option name="PACKAGE_NAME" value="fileIO" />
+      <option name="MAIN_CLASS_NAME" value="fileIO.test_HeroFile" />
+      <option name="METHOD_NAME" value="test_HeroFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testXml.testXml" />
-        <item itemvalue="JUnit.testSpring" />
-        <item itemvalue="JUnit.TestReflection" />
-        <item itemvalue="JUnit.TestLamdba" />
-        <item itemvalue="JUnit.TestCollection" />
+        <item itemvalue="JUnit.ParseHibernateAnnotation.testAnnotation" />
+        <item itemvalue="Application.ParseHibernateAnnotation" />
+        <item itemvalue="Application.FindFiles" />
+        <item itemvalue="Application.test_HeroFile" />
+        <item itemvalue="JUnit.test_HeroFile.test_HeroFile" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565580697963</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="removed old main entrance and replaced into test class">
+      <created>1565588580398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565588580398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -275,7 +270,8 @@
     <MESSAGE value="added reflection demo" />
     <MESSAGE value="finish reflection demo" />
     <MESSAGE value="added design patterns and junit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added design patterns and junit tests" />
+    <MESSAGE value="removed old main entrance and replaced into test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed old main entrance and replaced into test class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_learning$testXml_testXml.ic" NAME="testXml.testXml Coverage Results" MODIFIED="1565588517167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
