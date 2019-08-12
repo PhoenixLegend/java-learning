@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annotation/Hero_annotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/MyColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/MyEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/MyGeneratedValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/MyId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/MyTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/ParseHibernateAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileIO/Hero_Serializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileIO/test_HeroFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileIO/test_fileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileIO/text_fileDetection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileIO/test_HeroFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileIO/test_HeroFile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,39 +81,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParseHibernateAnnotation.testAnnotation">
-    <configuration name="FindFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.FindFiles" />
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.test_HeroFile">
     <configuration name="ParseHibernateAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="annotation.ParseHibernateAnnotation" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_HeroFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileIO.test_HeroFile" />
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_HeroFile.test_HeroFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test_HeroFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +121,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="fileIO" />
       <option name="MAIN_CLASS_NAME" value="fileIO.test_HeroFile" />
-      <option name="METHOD_NAME" value="test_HeroFile" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_fileIO.test_fileIO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fileIO" />
+      <option name="MAIN_CLASS_NAME" value="fileIO.test_fileIO" />
+      <option name="METHOD_NAME" value="test_fileIO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text_fileDetection.text_fileDetection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fileIO" />
+      <option name="MAIN_CLASS_NAME" value="fileIO.text_fileDetection" />
+      <option name="METHOD_NAME" value="text_fileDetection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test_HeroFile" />
+        <item itemvalue="JUnit.test_fileIO.test_fileIO" />
+        <item itemvalue="JUnit.text_fileDetection.text_fileDetection" />
         <item itemvalue="JUnit.ParseHibernateAnnotation.testAnnotation" />
         <item itemvalue="Application.ParseHibernateAnnotation" />
-        <item itemvalue="Application.FindFiles" />
-        <item itemvalue="Application.test_HeroFile" />
-        <item itemvalue="JUnit.test_HeroFile.test_HeroFile" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565588580398</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="仿hibernate的自定义注解">
+      <created>1565591224954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565591224954</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -271,7 +277,8 @@
     <MESSAGE value="finish reflection demo" />
     <MESSAGE value="added design patterns and junit tests" />
     <MESSAGE value="removed old main entrance and replaced into test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed old main entrance and replaced into test class" />
+    <MESSAGE value="仿hibernate的自定义注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="仿hibernate的自定义注解" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_learning$testXml_testXml.ic" NAME="testXml.testXml Coverage Results" MODIFIED="1565588517167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
