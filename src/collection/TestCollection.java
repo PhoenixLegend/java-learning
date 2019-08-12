@@ -1,11 +1,14 @@
 package collection;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 
 public class TestCollection {
-    public static void main(String[] args) {
+    @Test
+    public void TestCollection() {
         HashSet<Integer> numbers = new HashSet<>();
 
         numbers.add(9);

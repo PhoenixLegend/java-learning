@@ -1,10 +1,13 @@
 package jdbc;
 
+import org.junit.jupiter.api.Test;
+
 import java.sql.*;
 
 
 public class TestJDBC {
-    public static void main(String[] args) {
+    @Test
+    public void TestJDBC() {
         Connection c = null;
         Statement s = null;
         //初始化驱动

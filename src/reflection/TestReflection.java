@@ -1,13 +1,15 @@
 package reflection;
 
 import charactor.Hero;
+import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class TestReflection {
-    public static void main(String[] args) throws ClassNotFoundException {
+    @Test
+    public void TestReflection() throws ClassNotFoundException {
 //        Class class1 = Class.forName("charactor.Hero");
 //        Class class2=Hero.class;
 //        Class class3=new Hero().getClass();

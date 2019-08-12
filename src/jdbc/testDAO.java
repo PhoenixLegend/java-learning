@@ -1,9 +1,12 @@
 package jdbc;
 
 import charactor.Hero;
+import org.junit.Test;
+
 
 public class testDAO {
-    public static void main(String[] args) {
+    @Test
+    public  void testDAO() {
         HeroDAO h1 = new HeroDAO();
         Hero h2 = new Hero(1,"ran",100,20);
         h1.getTotal();

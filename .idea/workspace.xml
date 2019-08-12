@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JUnitGenerator.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/charactor/HeroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/Jetty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/OpensourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/OpensourceJVMServers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/Tomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/WildFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/testFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/CalculateSpeakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Conference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/MonitorConferenceAttendees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/testObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/ImprovedOpensourceSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/OpensourceSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/testSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/META-INF/thirdproject.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/META-INF/thirdproject.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/charactor/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charactor/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thirdproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thirdproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/collection/TestCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/collection/TestCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/jdbc/TestJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/jdbc/TestJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/jdbc/testDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/jdbc/testDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/lambda/TestLamdba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/lambda/TestLamdba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/xmlAnalizy/testXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/xmlAnalizy/testXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/TestCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/TestCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/testDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/testDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/TestLamdba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/TestLamdba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflection/TestReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflection/TestReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xmlAnalizy/testXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlAnalizy/testXml.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,9 +94,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testSingleton">
-    <configuration name="testSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.testSpring" />
+  <component name="RunManager" selected="JUnit.testXml.testXml">
+    <configuration name="TestCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="collection" />
+      <option name="MAIN_CLASS_NAME" value="collection.TestCollection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLamdba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.TestLamdba" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
@@ -114,80 +133,51 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="charactor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="charactor" />
-      <option name="MAIN_CLASS_NAME" value="charactor.HeroTest" />
-      <option name="METHOD_NAME" value="getName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testFactory.test_opensourceFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="factory" />
-      <option name="MAIN_CLASS_NAME" value="factory.testFactory" />
-      <option name="METHOD_NAME" value="test_opensourceFactory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testObserver.testObserverConference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="observer" />
-      <option name="MAIN_CLASS_NAME" value="observer.testObserver" />
-      <option name="METHOD_NAME" value="testObserverConference" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleton" />
-      <option name="MAIN_CLASS_NAME" value="singleton.testSingleton" />
+      <option name="PACKAGE_NAME" value="reflection" />
+      <option name="MAIN_CLASS_NAME" value="reflection.TestReflection" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="reflection" />
+      <option name="MAIN_CLASS_NAME" value="reflection.testSpring" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testXml.testXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmlAnalizy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xmlAnalizy" />
+      <option name="MAIN_CLASS_NAME" value="xmlAnalizy.testXml" />
+      <option name="METHOD_NAME" value="testXml" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testSingleton" />
-        <item itemvalue="JUnit.testObserver.testObserverConference" />
-        <item itemvalue="JUnit.testFactory.test_opensourceFactory" />
-        <item itemvalue="JUnit.HeroTest.getName" />
-        <item itemvalue="Application.testSpring" />
+        <item itemvalue="JUnit.testXml.testXml" />
+        <item itemvalue="JUnit.testSpring" />
+        <item itemvalue="JUnit.TestReflection" />
+        <item itemvalue="JUnit.TestLamdba" />
+        <item itemvalue="JUnit.TestCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565342767438</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added design patterns and junit tests">
+      <created>1565580697963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565580697963</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -277,7 +274,13 @@
     <MESSAGE value="added reflection" />
     <MESSAGE value="added reflection demo" />
     <MESSAGE value="finish reflection demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish reflection demo" />
+    <MESSAGE value="added design patterns and junit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added design patterns and junit tests" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_learning$testXml_testXml.ic" NAME="testXml.testXml Coverage Results" MODIFIED="1565588517167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>xmlAnalizy.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">

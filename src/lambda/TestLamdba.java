@@ -5,9 +5,11 @@ import java.util.List;
 import java.util.Random;
 
 import charactor.Hero;
+import org.junit.jupiter.api.Test;
 
 public class TestLamdba {
-    public static void main(String[] args) {
+    @Test
+    public void TestLamdba() {
         Random r = new Random();
         List<Hero> heros = new ArrayList<Hero>();
         for (int i = 0; i < 5; i++) {
