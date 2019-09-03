@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fileIO/test_fileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileIO/text_fileDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArraylistDIY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/arraylistDIYTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/string.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/charactor/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/charactor/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/collection/FindHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thirdproject/collection/FindHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charactor/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charactor/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/FindHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/FindHero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fileIO/test_HeroFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileIO/test_HeroFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thirdproject.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +21,11 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java-learning">
+      <favorite_root url="file://$PROJECT_DIR$/src/arrays/ArraylistDIY.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,19 +58,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="charactor" />
       <recent name="factory" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java-learning\src\annotation" />
-      <recent name="E:\java-learning" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java-learning\src\fileIO" />
@@ -67,6 +71,13 @@
       <recent name="E:\java-learning" />
       <recent name="E:\java-learning\.idea" />
       <recent name="E:\java-learning\design_pattern\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-learning\src\annotation" />
+      <recent name="E:\java-learning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,13 +92,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test_HeroFile">
-    <configuration name="ParseHibernateAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.ParseHibernateAnnotation" />
+  <component name="RunManager" selected="JUnit.arraylistDIYTest.testDIY">
+    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.string" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,17 +106,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParseHibernateAnnotation.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="arraylistDIYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="annotation" />
-      <option name="MAIN_CLASS_NAME" value="annotation.ParseHibernateAnnotation" />
-      <option name="METHOD_NAME" value="testAnnotation" />
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.arraylistDIYTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraylistDIYTest.testDIY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.arraylistDIYTest" />
+      <option name="METHOD_NAME" value="testDIY" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,29 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="text_fileDetection.text_fileDetection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fileIO" />
-      <option name="MAIN_CLASS_NAME" value="fileIO.text_fileDetection" />
-      <option name="METHOD_NAME" value="text_fileDetection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.arraylistDIYTest.testDIY" />
+        <item itemvalue="JUnit.arraylistDIYTest" />
+        <item itemvalue="Application.string" />
         <item itemvalue="JUnit.test_HeroFile" />
         <item itemvalue="JUnit.test_fileIO.test_fileIO" />
-        <item itemvalue="JUnit.text_fileDetection.text_fileDetection" />
-        <item itemvalue="JUnit.ParseHibernateAnnotation.testAnnotation" />
-        <item itemvalue="Application.ParseHibernateAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565591224954</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="split fileio test cases">
+      <created>1565592985968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565592985968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -278,7 +295,8 @@
     <MESSAGE value="added design patterns and junit tests" />
     <MESSAGE value="removed old main entrance and replaced into test class" />
     <MESSAGE value="仿hibernate的自定义注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="仿hibernate的自定义注解" />
+    <MESSAGE value="split fileio test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="split fileio test cases" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_learning$testXml_testXml.ic" NAME="testXml.testXml Coverage Results" MODIFIED="1565588517167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

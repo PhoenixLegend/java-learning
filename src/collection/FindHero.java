@@ -16,12 +16,12 @@ public class FindHero {
         for (int i = 0; i < heroSize; i++) {
             heros.add(new Hero("hero-" + random.nextInt(10000)));
         }
-        HashMap<String, List<Hero>> heroMap = new HashMap<String, List<Hero>>();
+        HashMap<String, List<Hero>> heroMap = new HashMap<>();
         for (Hero hero : heros) {
-            List<Hero> list = heroMap.get(hero.name); // 获取给定键的值
+            List<Hero> list = heroMap.get(hero.getName()); // 获取给定键的值
             if (list == null) {
                 list = new ArrayList<Hero>();
-                heroMap.put(hero.name, list);
+                heroMap.put(hero.getName(), list);
             }
             list.add(hero);
         }
@@ -34,7 +34,7 @@ public class FindHero {
         long startTime = System.currentTimeMillis();
         List<Hero> result = new ArrayList<Hero>();
         for (Hero hero : heros) {
-            if (hero.name.equals("hero-5555")) {
+            if (hero.getName().equals("hero-5555")) {
                 System.out.println(hero);
                 result.add(hero);
             }

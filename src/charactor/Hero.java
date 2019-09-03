@@ -1,20 +1,37 @@
 package charactor;
 
 public class Hero implements Comparable<Hero>{
+
     public String name;
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
     public int length;
     public float hp;
     public int damage;
     public int id;
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public float getHp() {
+        return hp;
+    }
+
+    public void setHp(float hp) {
+        this.hp = hp;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+
 
     //静态初始化块里进行初始化
 //    static String copyright;
@@ -22,15 +39,18 @@ public class Hero implements Comparable<Hero>{
 //        System.out.println("初始化 copyright");
 //        copyright = "版权由Riot Games公司所有";
 //    }
-
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return name;
+    }
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public boolean isDead (){
         return 0>=hp? true:false;
     }

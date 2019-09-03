@@ -14,8 +14,8 @@ public class test_HeroFile{
     @Test
     public static void main() throws Exception {
     Hero h = new Hero();
-    h.name = "garen";
-    h.hp = 616;
+    h.setName("garen");
+    h.setHp(616);
     //准备一个文件用于保存该对象
     File f =new File("E:/garen.lol");
 
@@ -29,8 +29,8 @@ public class test_HeroFile{
     ) {
         oos.writeObject(h);
         Hero h2 = (Hero) ois.readObject();
-        System.out.println(h2.name);
-        System.out.println(h2.hp);
+        System.out.println(h2.getName());
+        System.out.println(h2.getHp());
 
     } catch (IOException e) {
         // TODO Auto-generated catch block
