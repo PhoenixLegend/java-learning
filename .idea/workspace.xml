@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csvTOjson/csvTojson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csvTOjson/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csvTOjson/json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csvTOjson/newtest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csvTOjson/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csvTOjson/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/csvTOjson/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csvTOjson/json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/csvTOjson/json.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567502708634</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches.">
+      <created>1567674621830</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567674621830</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -297,7 +300,8 @@
     <MESSAGE value="仿hibernate的自定义注解" />
     <MESSAGE value="split fileio test cases" />
     <MESSAGE value="added a array operation and diy a arraylist from jdk sourcecode" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a array operation and diy a arraylist from jdk sourcecode" />
+    <MESSAGE value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
+    <option name="LAST_COMMIT_MESSAGE" value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_learning$testXml_testXml.ic" NAME="testXml.testXml Coverage Results" MODIFIED="1565588517167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
