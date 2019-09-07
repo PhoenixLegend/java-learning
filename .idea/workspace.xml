@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/radix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/shell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortingAlgo/testSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csvTOjson/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/csvTOjson/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csvTOjson/json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/csvTOjson/json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thirdproject/META-INF/thirdproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileIO/test_fileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileIO/test_fileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thirdproject.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +59,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/csvTOjson" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -86,26 +98,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.readCSV">
+  <component name="RunManager" selected="JUnit.testSort.test">
     <configuration name="readCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="csvTOjson.readCSV" />
       <module name="thirdproject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="csvTOjson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.string" />
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,21 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arraylistDIYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.arraylistDIYTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="arraylistDIYTest.testDIY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdproject" />
       <extension name="coverage">
@@ -157,13 +141,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insert.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sortingAlgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sortingAlgo" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgo.insert" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sortingAlgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sortingAlgo" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgo.testSort" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testSort.test" />
+        <item itemvalue="JUnit.insert.test" />
         <item itemvalue="Application.readCSV" />
         <item itemvalue="Application.test" />
         <item itemvalue="JUnit.arraylistDIYTest.testDIY" />
-        <item itemvalue="JUnit.arraylistDIYTest" />
-        <item itemvalue="Application.string" />
       </list>
     </recent_temporary>
   </component>
@@ -303,18 +319,20 @@
     <MESSAGE value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
     <option name="LAST_COMMIT_MESSAGE" value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sortingAlgo/shell.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_learning$testXml_testXml.ic" NAME="testXml.testXml Coverage Results" MODIFIED="1565588517167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>xmlAnalizy.*</FILTER>
     </SUITE>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>j</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
