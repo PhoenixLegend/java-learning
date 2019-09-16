@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="" />
+    <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/JUnitGenerator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java-learing.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/thirdproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/JsonFormatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/Hero_annotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/MyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/MyEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/MyGeneratedValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/MyId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/MyTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotation/ParseHibernateAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/ArraylistDIY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/arraylistDIYTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/charactor/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/charactor/HeroTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collection/FindHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collection/TestCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csvTOjson/csvTojson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csvTOjson/testSplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/Jetty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/OpensourceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/OpensourceJVMServers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/Tomcat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/WildFly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/testFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileIO/Hero_Serializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileIO/test_HeroFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileIO/test_fileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileIO/text_fileDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc/DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc/HeroDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc/TestJDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc/testDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambda/HeroChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambda/TestLamdba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/KillThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/TestPool$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/TestPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/TestThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/ThreadPool$TaskConsumeThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/deadlock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/deadlock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/deadlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/lock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/lock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/testSync$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/testSync$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multiplethread/testSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mysql-connector-java-5.1.7-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mysql-database-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/network/TestSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/network/client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/network/server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/observer/CalculateSpeakers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/observer/Conference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/observer/MonitorConferenceAttendees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/observer/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/observer/testObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflection/TestReflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reflection/testSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/ImprovedOpensourceSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/OpensourceSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/testSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/bubble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/quick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/radix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/selection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/shell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sortingAlgo/testSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xlsx2json/xlsx2json.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlAnalizy/DomDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlAnalizy/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlAnalizy/XmlDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlAnalizy/testXml.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568616445363</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added utils(json formatting) and excel2json package">
+      <created>1568616761687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568616761687</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
