@@ -1,0 +1,10 @@
+{
+	"isFromPlatform": "0",
+	"platformBo": {
+		"quotationFlag": {
+			"platformBo": {
+               "test":
+			}
+		}
+	}
+}
