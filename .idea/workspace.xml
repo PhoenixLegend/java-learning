@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-learing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-learing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xlsx2json/xlsx2json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xlsx2json/xlsx2json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/ListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +65,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -117,9 +104,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListNode">
-    <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.ListNode" />
+  <component name="RunManager" selected="JUnit.Solution.test">
+    <configuration name="findingmedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.findingmedian" />
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
@@ -131,64 +118,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJDBC.TestJDBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.solution" />
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.TestJDBC" />
-      <option name="METHOD_NAME" value="TestJDBC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-learing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.Solution" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLamdba.TestLamdba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="findingmedian.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.TestLamdba" />
-      <option name="METHOD_NAME" value="TestLamdba" />
+      <option name="PACKAGE_NAME" value="dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.findingmedian" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xlsx2json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="findingmedian.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xlsx2json.*" />
+          <option name="PATTERN" value="dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xlsx2json" />
-      <option name="MAIN_CLASS_NAME" value="xlsx2json.xlsx2json" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="xlsx2json.testfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-learing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xlsx2json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xlsx2json" />
-      <option name="MAIN_CLASS_NAME" value="xlsx2json.xlsx2json" />
-      <option name="METHOD_NAME" value="testfile" />
+      <option name="PACKAGE_NAME" value="dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.findingmedian" />
+      <option name="METHOD_NAME" value="test([Ljava.lang.String;)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListNode" />
-        <item itemvalue="JUnit.xlsx2json.testfile" />
-        <item itemvalue="JUnit.xlsx2json" />
-        <item itemvalue="JUnit.TestJDBC.TestJDBC" />
-        <item itemvalue="JUnit.TestLamdba.TestLamdba" />
+        <item itemvalue="JUnit.Solution.test" />
+        <item itemvalue="JUnit.findingmedian.test (1)" />
+        <item itemvalue="JUnit.findingmedian.test" />
+        <item itemvalue="Application.findingmedian" />
+        <item itemvalue="Application.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568616761687</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added dataStructure listnode imp and algo for two sum.Library maven junit was also added.">
+      <created>1568856189120</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568856189120</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +336,8 @@
     <MESSAGE value="added a array operation and diy a arraylist from jdk sourcecode" />
     <MESSAGE value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
     <MESSAGE value="added utils(json formatting) and excel2json package" />
-    <option name="LAST_COMMIT_MESSAGE" value="added utils(json formatting) and excel2json package" />
+    <MESSAGE value="added dataStructure listnode imp and algo for two sum.Library maven junit was also added." />
+    <option name="LAST_COMMIT_MESSAGE" value="added dataStructure listnode imp and algo for two sum.Library maven junit was also added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,6 +346,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/sortingAlgo/shell.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/Solution.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

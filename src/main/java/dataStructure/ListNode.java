@@ -21,15 +21,16 @@ public class ListNode {
 //    }
 
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(1);
-        l1.next = new ListNode(2);
-        l1.next.next  = new ListNode(3);
+//        ListNode l1 = new ListNode(1);
+//        l1.next = new ListNode(2);
+//        l1.next.next  = new ListNode(3);
+//
+//        ListNode l2 = new ListNode(1);
+//        l2.next = new ListNode(2);
+//        l2.next.next  = new ListNode(3);
+//
+//        System.out.println(addTwoNumbers(l1,l2).toString());
 
-        ListNode l2 = new ListNode(1);
-        l2.next = new ListNode(2);
-        l2.next.next  = new ListNode(3);
-
-        System.out.println(addTwoNumbers(l1,l2).toString());
     }
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = null;
