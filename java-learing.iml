@@ -130,5 +130,6 @@
     <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-params:5.5.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.5.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.junit.platform:junit-platform-engine:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:4.6.1" level="project" />
   </component>
 </module>

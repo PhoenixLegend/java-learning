@@ -1,4 +1,4 @@
-package dataStructure;
+package leetcode;
 
 import org.junit.jupiter.api.Test;
 class palindrome {

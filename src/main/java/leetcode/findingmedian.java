@@ -1,4 +1,4 @@
-package dataStructure;
+package leetcode;
 
 import org.junit.jupiter.api.Test;
 
@@ -29,15 +29,14 @@ class findingmedian {
             while(lmax > rmin){
                 if(ifOutOfBound(i-1,A) > ifOutOfBound(j,B)){
                     // i is so big but check whether nums[i-1] out of boundray
-                    i = i - 1 >= 0 ? 0:i-1;
+                    i = Math.min(i - 1, 0);
                     j = (int)Math.ceil(((double)m+n)/2)-i;
 
                     lmax = Math.max(ifOutOfBound(i-1,A), ifOutOfBound(j-1,B));
                     rmin = Math.min(ifOutOfBound(i,A),ifOutOfBound(j,B));
-                    continue;
                 }else if(ifOutOfBound(j-1,B) > ifOutOfBound(i,A)){
                     // i is so small
-                    i = i + 1 >= m ? m:i+1;
+                    i = Math.min(i + 1, m);
                     j = (int)Math.ceil(((double)m+n)/2)-i;
 
                     lmax = Math.max(ifOutOfBound(i-1,A), ifOutOfBound(j-1,B));

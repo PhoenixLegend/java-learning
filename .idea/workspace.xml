@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="finish">
-      <change afterPath="$PROJECT_DIR$/.attach_pid13005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.attach_pid8247" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.attach_pid23805" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid23933" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid25076" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid25773" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid25864" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid26335" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid26841" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid27166" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid27312" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid27391" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid28082" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid29827" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid30188" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid30454" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid31146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid31222" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid31349" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid31530" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid31924" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid32182" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid32260" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-learing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-learing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +88,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -106,13 +127,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.palindrome.test">
+  <component name="RunManager" selected="JUnit.atoi">
     <configuration name="findingmedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.findingmedian" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.findingmedian" />
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,15 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.solution" />
+    <configuration name="atoi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.atoi" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="atoi.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-learing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.atoi" />
+      <option name="METHOD_NAME" value="text" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,12 +176,12 @@
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="dataStructure.findingmedian" />
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.findingmedian" />
       <option name="METHOD_NAME" value="test([Ljava.lang.String;)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -169,12 +208,12 @@
       <module name="java-learing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="dataStructure.palindrome" />
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.palindrome" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -183,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.atoi" />
+        <item itemvalue="JUnit.atoi.text" />
         <item itemvalue="JUnit.palindrome.test" />
-        <item itemvalue="JUnit.findingmedian.test (1)" />
         <item itemvalue="JUnit.findingmedian.test" />
         <item itemvalue="Application.findingmedian" />
-        <item itemvalue="Application.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568856189120</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="finish palindrome problem using both violent and dynamic method.">
+      <created>1569043047996</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569043047996</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,7 +385,8 @@
     <MESSAGE value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
     <MESSAGE value="added utils(json formatting) and excel2json package" />
     <MESSAGE value="added dataStructure listnode imp and algo for two sum.Library maven junit was also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="added dataStructure listnode imp and algo for two sum.Library maven junit was also added." />
+    <MESSAGE value="finish palindrome problem using both violent and dynamic method." />
+    <option name="LAST_COMMIT_MESSAGE" value="finish palindrome problem using both violent and dynamic method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,18 +398,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/findingmedian.java</url>
-          <line>64</line>
+          <line>63</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStructure/Solution.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

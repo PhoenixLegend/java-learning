@@ -1,6 +1,4 @@
-package dataStructure;
-
-import javax.swing.*;
+package leetcode;
 
 public class ListNode {
     int val;
