@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdfa5c0-b9dc-4866-a064-e4ce075529db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/intPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid13005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid23805" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid23933" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid25076" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid25773" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid25864" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid26335" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid26841" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid27166" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid27312" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid27391" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid28082" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid29827" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid30188" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid30454" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid31146" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid31222" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid31349" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid31530" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid31924" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid32182" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid32260" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid8247" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/盛最多的水的容器.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.intPalindrome">
+  <component name="RunManager" selected="JUnit.盛最多的水的容器.test">
     <configuration name="回文数" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-learing" />
       <extension name="coverage">
@@ -142,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-learing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="dataStructure.Solution" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="回文数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-learing" />
       <extension name="coverage">
@@ -168,6 +128,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode.回文数" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="盛最多的水的容器.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-learing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.盛最多的水的容器" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -207,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.盛最多的水的容器.test" />
         <item itemvalue="JUnit.intPalindrome" />
         <item itemvalue="JUnit.回文数.test" />
         <item itemvalue="JUnit.palindrome.test" />
         <item itemvalue="JUnit.回文数" />
-        <item itemvalue="JUnit.Solution.test" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568856189120</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added intpalindrome">
+      <created>1569207993872</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569207993872</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +346,8 @@
     <MESSAGE value="added csvTOjson package, able to read a csv file and autometicly add to json file with a certain key matches." />
     <MESSAGE value="added utils(json formatting) and excel2json package" />
     <MESSAGE value="added dataStructure listnode imp and algo for two sum.Library maven junit was also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="added dataStructure listnode imp and algo for two sum.Library maven junit was also added." />
+    <MESSAGE value="added intpalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="added intpalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
